@@ -61,8 +61,8 @@ plugins: ['jekyll/scholar']
 
 scholar:
 
-  last_name: Doe
-  first_name: [John]
+  last_name: Esseldeurs
+  first_name: [Mats]
 
   style: citesty
   locale: en

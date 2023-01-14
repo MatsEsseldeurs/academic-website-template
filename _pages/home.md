@@ -27,3 +27,8 @@ My scientific interests cover a variety of subjects that intersect math, physics
 </div>
 
 
+
+<div class="jumbotron">
+### Selected Publications
+{% bibliography --query @thesis %}
+</div>
