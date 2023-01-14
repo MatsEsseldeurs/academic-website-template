@@ -7,6 +7,10 @@ permalink: /teaching/
 
 ## Teaching
 
-* Introduction to Physics (1961--63) [Textbook here!](https://www.feynmanlectures.caltech.edu/)
+#### Teaching Assistant
+* General Physics with Elements of Mathematics I (fall, 2020)
+* General Physics I (fall, 2021)
+* Biophysics (fall, 2022)
 
-
+#### Tutor
+* Physics & mathematics (2018-22)

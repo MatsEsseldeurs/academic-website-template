@@ -9,7 +9,7 @@
     padding-bottom:0px;
     padding-left:15px;
     padding-right:15px;
-    height:20px:
+    height:20px;
 }
 pre{
     white-space: pre-wrap;  
@@ -58,16 +58,16 @@ pre{
 {% endif %}
 
 {% if entry.abstract %}
-<div id="a{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="a{{entry.key}}" style="display:none; background-color:white;border:thin solid;border-color: gray; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>{{ entry.bibtex | remove: "entry.abstract" }}</pre>
 </div>
 {% else %}
-<div id="a{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="a{{entry.key}}" style="display:none; background-color:white;border:thin solid;border-color: gray; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>{{ entry.bibtex }}</pre>
 </div>
 {% endif %}
 
-<div id="b{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="b{{entry.key}}" style="display:none; background-color:white;border:thin solid;border-color: gray; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>{{entry.abstract}}</pre>
 </div>
 

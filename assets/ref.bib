@@ -1,54 +1,20 @@
-@incollection{example_invited_talk,
-  author = {J. Doe},
-  note = {Example Location},
-  publisher = {Example Talk Name},
-  year = {2040},
-  keywords = "invited",
+@thesis{Esseldeurs2022,
+ language = {eng},
+ publisher = {KU Leuven. Faculteit Wetenschappen},
+ title = {SPH Approach to Modelling Dust Attenuation of the Wind Acceleration in AGB Binaries},
+ year = {2022},
+ author = {Esseldeurs, Mats},
+ address = {Leuven},
+ file = {Radiation_Pressure.pdf},
+ abstract={Circumstellar envelopes of asymptotic giant branch (AGB) stars have for a long time been modelled assuming a spherical symmetry. However, recent observations of the inner winds of these stars have shown that they exhibit a variety of complex structures, such as spirals, equatorial density enhancements, disks, bipolar outflows, etc. These structures are believed to originate from the presence of a companion, either stellar and/or planetary. Due to the inherently three-dimensional (3D) nature of this phenomenon, its investigation requires advanced 3D-simulations. It has already been shown that using hydrodynamic simulations, some of these wind morphologies can be obtained. However, the computational cost of truly selfconsistent calculations, including the crucial chemical and radiation processes, is currently still computationally prohibitive. Therefore, incremental modelling improvements using ever more refined approximations can significantly advance the quality and physical consistency of the simulations. One such problem revolves around the transfer of momentum from the stellar photons to the dust particles in the AGB wind. Until recently, this coupling has always either been ignored, or treated in the optically thin limit, which only requires knowledge on the local quantities. However, properly accounting for the dust opacity and its attenuation of the stellar radiation field can drastically affect the effective radiation pressure on the dust. In turn, this can significantly alter the dynamics and morphology of these stellar winds.
+
+ In the context of a large collaboration that revolves around upgrading the treatment of dusty winds within the smoothed-particle-hydrodynamics code PHANTOM, I have worked on levelling up the way in which dust acceleration is calculated. To calculate the attenuation of the stellar radiation field, knowledge on the distribution and optical properties of the matter in-between each particle and the star is required. To this end the ray-tracing algorithm of the radiative transfer code MAGRITTE was extracted, made compatible with the SPH philosophy, and coupled to PHANTOM. We investigated different options to speed up the ray-tracer with only a minimal loss in accuracy. We show that the best results are found when rays are traced outwards from the star in a uniform distribution, set by HEALPix. Because not all particles are struck by a ray, we also investigated different interpolation approaches. We find that interpolation scaling with the inverse square of the perpendicular distance to the four closest rays gives the most desirable result. Finally, we demonstrate the validity of our new approach in a simulation.}
 }
 
-@software{example_software,
-  author = {J. Doe},
-  title = {Example software},
-  url = {https://example.com},
-  date = {2040},
+@conference{NAC_2022,
+  author = {Esseldeurs, Mats},
+  title = {Radiation pressure in 3D hydrodynamical simulations of companion-perturbed AGB outflows},
+  publisher = {77th Dutch Astronomers' Conference},
+  year = {2022},
+  abstract = {The cool and dusty circumstellar envelopes of asymptotic giant branch (AGB) have for a long time been modelled assuming a spherical symmetry. High spatial resolution observations of these stars have shown that their surroundings exhibit a variety of complex structures. Most of these structures are believed to originate from the interaction of the AGB wind with an obfuscated, nearby, orbiting stellar or planetary companion. Due to the inherent three-dimensional nature of these structures, a detailed understanding of these objects and the dominant wind-shaping mechanisms can therefore only be obtained from advanced three-dimensional treatments. Hydrodynamics simulations (with both particle- and grid-based codes) in the literature show that some of the observed morphologies can indeed be reproduced. However, due to the large computational cost a lot of critical physics has been strongly simplified, or even omitted. It is in this context that we present our work on upgrading the way in which attenuation of the stellar radiation field affects the effective radiation pressure on the dust by abandoning the widely adopted optically thin limit in calculating the dust acceleration. In this talk I will present my master thesis project where I coupled a ray-tracer with the smoothed-particle-hydrodynamics code Phantom to calculate the dust acceleration everywhere in the wind, and how to make it feasible for on-the-fly calculations. I will present the implications of this new treatment on the dynamics and morphology of the AGB outflows by means of three-dimensional AGB binary simulations.}
 }
-
-@inproceedings{example_proceeding,
-    Author = {J. Doe},
-    Year = {2040},
-    Title = {Example title},
-    Booktitle = {Example Book},
-    Address = {Pasadena, CA},
-    file = {example_proceeding.pdf},
-    abstract = {Example abstract.},
-}
-
-@incollection{example_conference,
-    author = {J. Doe},
-    title = {Example talk},
-    note = {Example Conference},
-    year = {2040},
-}
-
-@unpublished{feynman06,
-    Author = {R. P. Feynman and J. M. Cline},
-    Title = {Feynman lectures on the strong interations},
-    Note = {arXiv:2006.08594},
-    doi = {2006.08594},
-    file = {feynman06.pdf},
-    abstract = {These twenty-two lectures, with exercises, comprise the extent of what was meant to be a full-year graduate-level course on the strong interactions and QCD, given at Caltech in 1987-88. The course was cut short by the illness that led to Feynman's death. Several of the lectures were finalized in collaboration with Feynman for an anticipated monograph based on the course. The others, while retaining Feynman's idiosyncrasies, are revised similarly to those he was able to check. His distinctive approach and manner of presentation are manifest throughout. Near the end he suggests a novel, nonperturbative formulation of quantum field theory in D dimensions. Supplementary material is provided in appendices and ancillary files, including verbatim transcriptions of three lectures and the corresponding audiotaped recordings.},
-}
-
-@article{feynman1939forces,
-  title={Forces in molecules},
-  author={R. P. Feynman},
-  journal={Physical Review},
-  volume={56},
-  number={4},
-  pages={340},
-  year={1939},
-  doi={10.1103/PhysRev.56.340},
-  file={feynman39.pdf},
-  abstract={Formulas have been developed to calculate the forces in a molecular system directly, rather than indirectly through the agency of energy. This permits an independent calculation of the slope of the curves of energy vs. position of the nuclei, and may thus increase the accuracy, or decrease the labor involved in the calculation of these curves. The force on a nucleus in an atomic system is shown to be just the classical electrostatic force that would be exerted on this nucleus by other nuclei and by the electrons' charge distribution. Qualitative implications of this are discussed.},
-}
-
