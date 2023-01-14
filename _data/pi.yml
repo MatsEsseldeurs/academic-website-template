@@ -3,19 +3,19 @@
   info: PhD in Astronomy, Institute of Astronomy, KU Leuven
   email: mats.esseldeurs@kuleuven.be
   github: https://github.com/MatsEsseldeurs
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
-  cv: cv/cv.pdf
+  LinkedIn: https://www.linkedin.com/in/mats-esseldeurs-798037210
+  orcid: https://orcid.org/my-orcid?orcid=0000-0002-4650-6029
+  ads: https://ui.adsabs.harvard.edu/search/q=%20author%3A%22Esseldeurs%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
   # Change the number below to the number of "educations" you have (up to 6)
   number_educ: 2
-  education1: "(2022) M.S. Astronomy & Astrophysics, KU Leuven"
-  education2: "(2020) B.S. Physics, KU Leuven"
+  education1: "(2022) MS Astronomy & Astrophysics, KU Leuven"
+  education2: "(2020) BS Physics, KU Leuven"
   # education3: 
   # education4: 
   # education5: 
   # education6: 
-  education1short: "(2022) M.S. Astronomy & Astrophysics, KU Leuven"
-  education2short: "(2020) B.S. Physics, KU Leuven"
+  education1short: "(2022) MS Astronomy & Astrophysics, KU Leuven"
+  education2short: "(2020) BS Physics, KU Leuven"
   # education3short: 
   # education4short: 
   # education5short: 
