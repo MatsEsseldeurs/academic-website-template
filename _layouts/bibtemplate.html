@@ -53,6 +53,10 @@ pre{
 <button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
 {% endif %}
 
+{% if entry.link %}
+<a href="{{ entry.link }}" target="_blank"><button class="btn btn-primary btm-sm">URL</button></a>
+{% endif %}
+
 {% if entry.abstract %}
 <button class="btn btn-warning btm-sm"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
 {% endif %}
