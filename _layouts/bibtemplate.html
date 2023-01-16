@@ -41,6 +41,10 @@ pre{
 <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
 {% endif %}
 
+{% if entry.slides %}
+<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.slides }}" target="_blank"><button class="btn btn-success btm-sm">Slides</button></a>
+{% endif %}
+
 {% if entry.doi %}
 {% if entry.type == 'unpublished' %}
 <a href="{{ entry.doi | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-primary btm-sm">ARXIV</button></a>
