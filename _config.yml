@@ -62,13 +62,13 @@ plugins: ['jekyll/scholar']
 scholar:
 
   last_name: Esseldeurs
-  first_name: [Mats]
+  first_name: [Mats, M.]
 
   style: citesty
   locale: en
 
-  source: /assets/
-  bibliography: ref.bib
+  source: /_bibliography/
+  # bibliography: articles.bib
   bibliography_template: bibtemplate
   sort_by: year, month
   order: descending

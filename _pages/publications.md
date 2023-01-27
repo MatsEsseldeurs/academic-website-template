@@ -3,6 +3,7 @@ title: "Publications"
 layout: gridlay
 sitemap: false
 permalink: /publications/
+years: [2022]
 ---
 
 <style>
@@ -15,7 +16,12 @@ permalink: /publications/
 }
 </style>
 
+# Publications
 <div class="jumbotron">
+
+### Peer reviewed publications
+{% bibliography -f articles %}
+
 ### Thesis
-{% bibliography --query @thesis %}
+{% bibliography -f thesis --query @thesis %}
 </div>

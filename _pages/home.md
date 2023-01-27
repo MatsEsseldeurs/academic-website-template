@@ -27,5 +27,5 @@ Alongside this project I am also working on the semi-analytical moddeling of tid
 
 <div class="jumbotron">
 ### Selected Publications
-{% bibliography --query @thesis %}
+{% bibliography -f thesis --query @thesis %}
 </div>

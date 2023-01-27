@@ -22,10 +22,7 @@ pre{
 </style>
 
 
-<div class="text-justify">{{reference}}</div>
-
-<!-- You can use the below to make your name bold -->
-<!-- {{reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' | replace_first: 'Bryngelson, S.', '<b>Bryngelson, S.</b>' }}</div> -->
+<div class="text-justify">{{reference | replace_first: 'Esseldeurs, M.', '<b>Esseldeurs M.</b>'}}</div>
 
 {% assign bibtest = false %}
 {% if entry.file %}
@@ -80,7 +77,7 @@ pre{
 </div>
 
 <script>
-function toggleBibtex{{entry.key}}(parameter) {
+function toggleBibtex{{entry.key}}() {
     var x= document.getElementById('a{{entry.key}}');
     if (x.style.display === 'none') {
         x.style.display = 'block';
@@ -88,7 +85,7 @@ function toggleBibtex{{entry.key}}(parameter) {
         x.style.display = 'none';
     }
 }
-function toggleAbstract{{entry.key}}(parameter) {
+function toggleAbstract{{entry.key}}() {
     var x= document.getElementById('b{{entry.key}}');
     if (x.style.display === 'none') {
         x.style.display = 'block';

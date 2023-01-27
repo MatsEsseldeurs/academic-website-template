@@ -23,13 +23,13 @@ permalink: /talks/
 </style>
 
 <div class="jumbotron">
-### Upcomming Poster Presentations
-{% bibliography --query @upposter %}
+### Upcoming Poster Presentations
+{% bibliography -f conferences --query @upposter %}
 </div>
 
 
 <div class="jumbotron">
 ### Conference Talks
-{% bibliography --query @conference %}
+{% bibliography -f conferences --query @conferencepres %}
 </div>
 

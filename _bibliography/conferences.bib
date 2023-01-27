@@ -1,17 +1,4 @@
-@thesis{Esseldeurs2022,
- language = {eng},
- publisher = {KU Leuven. Faculteit Wetenschappen},
- title = {SPH Approach to Modelling Dust Attenuation of the Wind Acceleration in AGB Binaries},
- year = {2022},
- author = {Esseldeurs, Mats},
- address = {Leuven},
- file = {Radiation_Pressure.pdf},
- abstract={Circumstellar envelopes of asymptotic giant branch (AGB) stars have for a long time been modelled assuming a spherical symmetry. However, recent observations of the inner winds of these stars have shown that they exhibit a variety of complex structures, such as spirals, equatorial density enhancements, disks, bipolar outflows, etc. These structures are believed to originate from the presence of a companion, either stellar and/or planetary. Due to the inherently three-dimensional (3D) nature of this phenomenon, its investigation requires advanced 3D-simulations. It has already been shown that using hydrodynamic simulations, some of these wind morphologies can be obtained. However, the computational cost of truly selfconsistent calculations, including the crucial chemical and radiation processes, is currently still computationally prohibitive. Therefore, incremental modelling improvements using ever more refined approximations can significantly advance the quality and physical consistency of the simulations. One such problem revolves around the transfer of momentum from the stellar photons to the dust particles in the AGB wind. Until recently, this coupling has always either been ignored, or treated in the optically thin limit, which only requires knowledge on the local quantities. However, properly accounting for the dust opacity and its attenuation of the stellar radiation field can drastically affect the effective radiation pressure on the dust. In turn, this can significantly alter the dynamics and morphology of these stellar winds.
-
- In the context of a large collaboration that revolves around upgrading the treatment of dusty winds within the smoothed-particle-hydrodynamics code PHANTOM, I have worked on levelling up the way in which dust acceleration is calculated. To calculate the attenuation of the stellar radiation field, knowledge on the distribution and optical properties of the matter in-between each particle and the star is required. To this end the ray-tracing algorithm of the radiative transfer code MAGRITTE was extracted, made compatible with the SPH philosophy, and coupled to PHANTOM. We investigated different options to speed up the ray-tracer with only a minimal loss in accuracy. We show that the best results are found when rays are traced outwards from the star in a uniform distribution, set by HEALPix. Because not all particles are struck by a ray, we also investigated different interpolation approaches. We find that interpolation scaling with the inverse square of the perpendicular distance to the four closest rays gives the most desirable result. Finally, we demonstrate the validity of our new approach in a simulation.}
-}
-
-@conference{NAC_2022,
+@conferencepres{NAC_2022,
   author = {Esseldeurs, Mats},
   title = {Radiation pressure in 3D hydrodynamical simulations of companion-perturbed AGB outflows},
   publisher = {77th Dutch Astronomers' Conference},
