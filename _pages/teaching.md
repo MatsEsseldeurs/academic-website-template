@@ -7,10 +7,13 @@ permalink: /teaching/
 
 ## Teaching
 
+#### Supervision
+* Thesis tutor of Mike Feys (2022-2023; Master A&A)
+
 #### Teaching Assistant
-* General Physics with Elements of Mathematics I (fall, 2020)
-* General Physics I (fall, 2021)
 * Biophysics (fall, 2022)
+* General Physics I (fall, 2021)
+* General Physics with Elements of Mathematics I (fall, 2020)
 
 #### Tutor
 * Physics & mathematics (2018-22)
