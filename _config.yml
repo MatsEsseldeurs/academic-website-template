@@ -30,6 +30,7 @@ contact: >
 nav_pages:
   - name: publications
   - name: talks
+  - name: research
   - name: software
   - name: teaching
 

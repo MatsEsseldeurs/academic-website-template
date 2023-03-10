@@ -7,6 +7,8 @@ permalink: /teaching/
 
 ## Teaching
 
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12" style="text-align:justify">
 #### Supervision
 * Thesis tutor of Mike Feys (2022-2023; Master A&A)
 
@@ -17,3 +19,4 @@ permalink: /teaching/
 
 #### Tutor
 * Physics & mathematics (2018-22)
+</div>
