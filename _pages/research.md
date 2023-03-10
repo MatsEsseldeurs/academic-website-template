@@ -35,7 +35,7 @@ iframe {
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12" style="text-align:justify">
 <h4>3D simulations of AGB stellar winds</h4>
-<img src="{{site.url}}{{site.baseurl}}/images/2Dplotrho_orbital.png" width="39%" style="margin-left:20px; margin-right:0px; margin-bottom:5px; margin-top:0px;" align="right"/>
+<img src="{{site.url}}{{site.baseurl}}/images/2Dplotrho_orbital.png" style="width:400px; min-width:39%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:5px; margin-top:0px;" align="right"/>
 
 <b>Context.</b> Stars with an initial mass below ∼ 8 Msun will evolve through the Asymptotic Giant Branch (AGB) phase, during which they develop a strong stellar wind, due to radiation pressure on newly formed dust grains. Recent observations have revealed significant morphological complexities in AGB outflows, which are most probably caused by the interaction with a companion.
 
