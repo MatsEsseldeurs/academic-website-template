@@ -39,7 +39,7 @@ iframe {
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12">
-<h4><b>Ray-Tracing Implementation in Phantom</b></h4>
+<h4>Ray-Tracing Implementation in Phantom</h4>
 <a href="https://github.com/danieljprice/phantom/blob/master/src/main/utils_raytracer.f90" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
 <a href="{{ site.url }}{{ site.baseurl }}/papers/3D_simulations_of_AGB_stellar_winds___II__Ray_tracer_implementation_and_impact_of_radiation_on_the_outflow_morphology.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 

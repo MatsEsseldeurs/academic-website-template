@@ -31,7 +31,6 @@ iframe {
 </style>
 
 ## Research
-
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12" style="text-align:justify">
 <h4>3D simulations of AGB stellar winds</h4>
@@ -46,6 +45,8 @@ iframe {
 <b>Results.</b> The effects of the different radiative transfer treatments are analysed considering both a low and high mass-loss rate regime and this both in the case of a single AGB star, as well as for an AGB binary system. For both low and high mass-loss rates, the velocity profile of the outflow is modified when going from the free-wind to the geometrical approximation, also resulting in a different wind morphology for AGB binary systems. In the case of a low mass-loss rate, the effect of the Lucy and attenuation approximation is negligible due to the low densities but morphological differences appear in the high mass-loss rate regime. By comparing the radiative equilibrium temperature and radiation force to the predictions from Magritte, we show that for most of the model the Lucy approximation works best, although close to the companion artificial heating occurs; and that it fails to simulate the shadow cast by the companion. The attenuation approximation leads to a stronger absorption of the radiation field yielding lower equilibrium temperature, weaker radiation force but produces the shadow cast by the companion. From the predictions of the 3D radiative transfer code Magritte, we also conclude that a radially directed radiation force is a reasonable assumption.
 
 <b>Conclusions.</b> The radiation force plays a critical role in dust-driven AGB winds, impacting the velocity profile and morphological structures. For low mass-loss rates, the geometrical approximation suffices, but for high mass-loss rates a more rigorous method is required. Among the studied approaches, the Lucy approximation provides the most accurate results, although it does not account for all effects.
+
+{% bibliography -f inreview %}
 </div>
 </div>
 
