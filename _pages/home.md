@@ -1,6 +1,6 @@
 ---
 title: "Home"
-layout: homelay
+layout: default
 sitemap: false
 permalink: /
 ---
@@ -14,6 +14,12 @@ permalink: /
     margin-bottom:30px;
 }
 </style>
+
+
+<div id="homeid" class="col-sm-12 col-xs-12">
+<figure>
+  <img src="{{site.url}}{{site.baseurl}}/images/headshot.jpg" style="width:300px; min-width:25%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:5px; margin-top:25px;" align="right">
+</figure>
 
 <div style="text-align:justify">
 ### Welcome!

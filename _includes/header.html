@@ -21,6 +21,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            </li> 
           {% endfor %}
         </ul>
-  </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav ml-auto">
+      {% for member in site.data.pi %}
+        <div>
+        {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
+        {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
+        {% if member.LinkedIn %} <a href="{{ member.LinkedIn }}" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a> {% endif %}
+        {% if member.orcid %} <a href="{{ member.orcid }}" target="_blank"><i class="ai ai-orcid-square ai-3x"></i></a> {% endif %}
+        {% if member.ads %} <a href="{{ member.ads }}" target="_blank"><i class="ai ai-ads-square ai-3x"></i></a> {% endif %}
+        </div>
+      {% endfor %}
+      </ul>
+    </div>
 </nav>
 
