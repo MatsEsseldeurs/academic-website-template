@@ -66,7 +66,7 @@ In this code, to account for radiation transfer effects, a ray tracing algorithm
 <a href="https://github.com/Magritte-code/Magritte" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a></h4>
 
 <b>Author:</b>
-<i>De Ceuster, Frederik; Ceulemans, Thomas</i>;
+<i>De Ceuster, Frederik; Ceulemans, Thomas</i>&nbsp;&nbsp;&nbsp;&nbsp;
 <b>Contributors:</b>
 <i>Esseldeurs, Mats; et al.</i>
 
@@ -86,7 +86,7 @@ In this code, to account for radiation transfer effects, a ray tracing algorithm
 <a href="https://github.com/orlox/SideKicks.jl" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a></h4>
 
 <b>Author:</b>
-<i>Marchant, Pablo; Esseldeurs, Mats</i>;
+<i>Marchant, Pablo; Esseldeurs, Mats</i>
 
 <div style="text-align:justify">
 <a href="https://juliahub.com/ui/Packages/SideKicks/OZCI1/0.2.0">SideKicks</a> (Statistical Inference to DEtermine KICKS on compact objects) is a Julia package which provides tools to perform MCMC sampling of a system composed of a star and a compact object in order to determine kicks received on the compact object at birth. This tool allows to statistically determin the initial pre-SN binary properties from observed post-SN binary properties. 
