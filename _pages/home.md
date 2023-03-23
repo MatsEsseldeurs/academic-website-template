@@ -23,7 +23,7 @@ permalink: /
 
 <div style="text-align:justify">
 ### Welcome to my personal website!
-I'm Mats Esseldeurs, a PhD student at [KU Leuven](https://www.kuleuven.be/kuleuven/)'s [Institute of Astronomy](https://fys.kuleuven.be/ster). My research lies at the intersection of math, physics, and computer science, where I explore some of the most complex phenomena in the universe.
+I'm Mats Esseldeurs, a PhD student at [KU Leuven](https://www.kuleuven.be/kuleuven/)'s [Institute of Astronomy](https://fys.kuleuven.be/ster), in the team of [Prof. Dr. Leen Decin](https://fys.kuleuven.be/ster/staff/senior-staff/leen-decin). My research lies at the intersection of math, physics, and computer science, where I explore some of the most complex phenomena in the universe.
 
 My primary research project involves developing efficient techniques for <b>approximating radiative transfer</b> in simulations of <b>3D fluid dynamics</b>. This is an exciting area of research because it has the potential to improve our understanding of a wide range of astrophysical processes, where I focus on the cool outflows of AGB stars. My collaborators on this project include [Dr. Frederik De Ceuster](https://freddeceuster.github.io/) at [KU Leuven](https://www.kuleuven.be/kuleuven/) and [Dr. Lionel Siess](http://www.astro.ulb.ac.be/~siess/) at [ULB](https://www.ulb.be/en/ulb-homepage).
 

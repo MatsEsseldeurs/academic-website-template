@@ -65,7 +65,7 @@ In this code, to account for radiation transfer effects, a ray tracing algorithm
 <h4>Magritte
 <a href="https://github.com/Magritte-code/Magritte" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a></h4>
 
-<b>Author:</b>
+<b>Authors:</b>
 <i>De Ceuster, Frederik; Ceulemans, Thomas</i>&nbsp;&nbsp;&nbsp;&nbsp;
 <b>Contributors:</b>
 <i>Esseldeurs, Mats; et al.</i>
@@ -81,7 +81,25 @@ In this code, to account for radiation transfer effects, a ray tracing algorithm
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12">
-<!-- <img src="{{site.url}}{{site.baseurl}}/images/Magritte.png" style="width:200px; min-width:20%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:5px; margin-top:0px;" align="right"/> -->
+<img src="{{site.url}}{{site.baseurl}}/images/plons_v2.png" style="width:100px; min-width:10%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:-5px;" align="right"/>
+<h4>Plons
+<a href="https://github.com/Ensor-code/plons" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a></h4>
+
+<b>Author:</b>
+<i>Malfait, Jolien; Esseldeurs, Mats; Maes, Silke; et al.</i>
+
+<div style="text-align:justify">
+<a href="https://anaconda.org/Ensor/plons">Plons</a> (PLOtting tool for Nice Simulations) is a plotting tool designed for for plotting wind simulations in the SPH code Phantom. It is desinged to load phantom_dump files and phantom_ev files to analyse and visualise morphological structures in outflow simulations, as well as the time evolution of properties like the orbital parameters.
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<img src="{{site.url}}{{site.baseurl}}/images/SideKicks.png" style="width:160px; min-width:16%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:5px; margin-top:-5px;" align="right"/>
 <h4>SideKicks.jl
 <a href="https://github.com/orlox/SideKicks.jl" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a></h4>
 
