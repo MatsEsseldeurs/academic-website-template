@@ -1,63 +1,32 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
 layout: gridlay
 sitemap: false
 permalink: /cv/
 ---
 
 <style>
-    /* Default style for the figure */
+  /* Default style for the figure */
+  .figure {
+    float: center; /* Center the figure horizontally */
+    width:238px; 
+    min-width:20%; 
+    max-width:100%; 
+    margin-left:20px; 
+    margin-right:0px; 
+    margin-bottom:-10px; 
+    margin-top:10px;
+  }
+
+  /* Change the alignment of the figure for screens wider than 800px */
+  @media (min-width: 768px) {
     .figure {
-      float: center; /* Center the figure horizontally */
-      width:238px; 
-      min-width:20%; 
-      max-width:100%; 
-      margin-left:20px; 
-      margin-right:0px; 
-      margin-bottom:-10px; 
-      margin-top:10px;
+      float: right; /* Align the figure to the right */
+      margin-top:0px;
     }
+  }
+</style>
 
-    /* Change the alignment of the figure for screens wider than 800px */
-    @media (min-width: 768px) {
-      .figure {
-        float: right; /* Align the figure to the right */
-        margin-top:0px;
-      }
-    }
-
-    .print-only {
-      display: none;
-    }
-
-    @media print {
-      .print-only {
-        display: block;
-      }
-    }
-    /* Set up a flex container */
-    .flex-container {
-      display: flex;
-      align-items: center;
-    }
-    /* Left-aligned content */
-    .left {
-      flex: 1; /* Take up all available space */
-    }
-    /* Right-aligned content */
-    .right {
-      text-align: right;
-    }
-  </style>
-
-<div class="flex-container">
-  <div class="left">
-  <h2>Curriculum Vitae</h2>
-  </div>
-  <div class="right">
-  <h2 class="print-only" style="text-align:end">Mats Esseldeurs</h2>
-  </div>
-</div>
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12" style="text-align:justify; margin-top:-20px">
@@ -84,13 +53,13 @@ permalink: /cv/
 </div></div>
 
 <div class="jumbotron">
-<div class="col-md-12 col-sm-12" style="text-align:justify">
+<div class="col-md-12 col-sm-12">
 #### Education
 
 <table style="width:100%">
   <tr> 
     <td class="p-1 pr-2 font-weight-bold" style="width:15%"><b>2017-2020</b></td>
-    <td class="p-1 pl-2 font-weight-light text" style="width:35%">Bachelor in Physics </td>
+    <td class="p-1 pl-2 font-weight-light text" style="width:40%">Bachelor in Physics </td>
     <td class="p-1 pl-2 font-weight-light text">KU Leuven </td>
     <td class="p-1 pl-2 font-weight-light text">Magna Cum Laude </td>
   </tr> 
@@ -101,10 +70,28 @@ permalink: /cv/
     <td class="p-1 pl-2 font-weight-light text">Summa Cum Laude </td>
   </tr> 
   <tr> 
+    <td class="p-1 pr-2 font-weight-bold"><b>2021</b></td>
+    <td class="p-1 pl-2 font-weight-light text">Erasmus in Physics and Astronomy </td>
+    <td class="p-1 pl-2 font-weight-light text">Uppsala University</td>
+  </tr> 
+  <tr> 
     <td class="p-1 pr-2 font-weight-bold"><b>2022-present</b></td>
     <td class="p-1 pl-2 font-weight-light text">PhD in Astronomy & Astrophysics </td>
     <td class="p-1 pl-2 font-weight-light text">KU Leuven </td>
   </tr> 
+</table>
+  <hr>
+<table style="width:100%">
+  <tr> 
+    <td class="p-1 pr-2 font-weight-bold" style="width:15%"><b>2015</b></td>
+    <td class="p-1 pl-2 font-weight-light text" style="width:40%">Recreation Coordinator </td>
+    <td class="p-1 pl-2 font-weight-light text">Jeugddienst Don Bosco </td>
+  </tr> 
+  <tr> 
+    <td class="p-1 pr-2 font-weight-bold"><b>2018</b></td>
+    <td class="p-1 pl-2 font-weight-light text">Leading Recreation Coordinator </td>
+    <td class="p-1 pl-2 font-weight-light text">Jeugddienst Don Bosco </td>
+  </tr>
 </table>
 
 </div></div>
@@ -113,14 +100,14 @@ permalink: /cv/
 <div class="col-md-12 col-sm-12" style="text-align:justify">
 
 #### Teaching
-##### Thesis Supervision
+###### Thesis Supervision
 * Thesis mentor of Mike Feys (2022-2023; Master A&A)
 
-##### Teaching Assistant
+###### Teaching Assistant
 * Biophysics (fall, 2022)
 * General Physics I (fall, 2021)
 * General Physics with Elements of Mathematics I (fall, 2020)
 
-##### Tutor
+###### Tutor
 * Physics & mathematics (2018-22)
 </div></div>

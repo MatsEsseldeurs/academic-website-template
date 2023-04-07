@@ -20,4 +20,30 @@
 {% include analytics.html %}
 {% endif %}
 
+
+<style>
+.print-only {
+  display: none;
+}
+
+@media print {
+  .print-only {
+    display: block;
+  }
+}
+/* Set up a flex container */
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+/* Left-aligned content */
+.left {
+  flex: 1; /* Take up all available space */
+}
+/* Right-aligned content */
+.right {
+  text-align: right;
+}
+</style>
+
 </head>
