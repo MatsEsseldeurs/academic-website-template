@@ -75,7 +75,7 @@ permalink: /cv/
     <td class="p-1 pl-2 font-weight-light text">Uppsala University</td>
   </tr> 
   <tr> 
-    <td class="p-1 pr-2 font-weight-bold"><b>2022-present</b></td>
+    <td class="p-1 pr-2 font-weight-bold"><b>2022-now</b></td>
     <td class="p-1 pl-2 font-weight-light text">PhD in Astronomy & Astrophysics </td>
     <td class="p-1 pl-2 font-weight-light text">KU Leuven </td>
   </tr> 
@@ -93,7 +93,34 @@ permalink: /cv/
     <td class="p-1 pl-2 font-weight-light text">Jeugddienst Don Bosco </td>
   </tr>
 </table>
+<span>
+</div></div>
 
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
+
+#### Grants and Awards
+
+
+<table style="width:100%">
+  <tr> 
+    <td class="p-1 pr-2 font-weight-bold" style="width:15%"><b>2023</b></td>
+    <td class="p-1 pl-2 font-weight-light text">Erasmus+ mobility grant to the CEA Paris-Saclay (France) </td>
+  </tr> 
+  <tr> 
+    <td class="p-1 pr-2 font-weight-bold"><b>2022</b></td>
+    <td class="p-1 pl-2 font-weight-light text">Paul Smeyers price (KU Leuven): Award for the best master thesis </td>
+  </tr> 
+  <tr> 
+    <td class="p-1 pr-2 font-weight-bold"><b>2022</b></td>
+    <td class="p-1 pl-2 font-weight-light text">Graduated best of master class; summa cum laude </td>
+  </tr> 
+  <tr> 
+    <td class="p-1 pr-2 font-weight-bold"><b>2021</b></td>
+    <td class="p-1 pl-2 font-weight-light text">Erasmus mobility grant to the University of Uppsala (Sweden) </td>
+  </tr> 
+</table>
+<span>
 </div></div>
 
 <div class="jumbotron">
