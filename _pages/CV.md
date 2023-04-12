@@ -53,7 +53,7 @@ permalink: /cv/
 </div></div>
 
 <div class="jumbotron">
-<div class="col-md-12 col-sm-12">
+<div class="col-md-12 col-sm-12" style="margin-top:-5px">
 #### Education
 
 <table style="width:100%">
@@ -97,7 +97,7 @@ permalink: /cv/
 </div></div>
 
 <div class="jumbotron">
-<div class="col-md-12 col-sm-12">
+<div class="col-md-12 col-sm-12" style="margin-top:-5px">
 
 #### Grants and Awards
 
@@ -124,7 +124,13 @@ permalink: /cv/
 </div></div>
 
 <div class="jumbotron">
-<div class="col-md-12 col-sm-12" style="text-align:justify">
+<div class="col-md-12 col-sm-12" style="margin-top:-5px">
+### Selected Publication
+{% bibliography -f inreview %}
+</div></div>
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12" style="text-align:justify; margin-top:-5px">
 
 #### Teaching
 ###### Thesis Supervision
