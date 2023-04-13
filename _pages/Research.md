@@ -20,7 +20,7 @@ I have compared the effects of four different descriptions of radiative transfer
 
 Overall, my research highlights the critical role of the radiation force in dust-driven AGB winds, impacting the velocity profile and morphological structures. These findings provide important insights into the behavior of stars during the AGB phase and contribute to our understanding of the evolution of stars.
 
-{% bibliography -f inreview %}
+{% bibliography -f inreview -q @*[status=selected]  %}
 </div>
 </div>
 

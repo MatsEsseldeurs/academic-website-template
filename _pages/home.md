@@ -39,5 +39,5 @@ Thanks for visiting my website, and please don't hesitate to get in touch if you
 
 <div class="jumbotron">
 ### Selected Publications
-{% bibliography -f inreview %}
+{% bibliography -f inreview -q @*[status=selected]  %}
 </div>
