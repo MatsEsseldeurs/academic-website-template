@@ -22,7 +22,7 @@ pre{
 </style>
 
 
-<div class="text-justify">{{reference | replace_first: 'Esseldeurs, M.', '<b>Esseldeurs M.</b>'}}</div>
+<div class="text-justify">{{reference | replace: 'Esseldeurs, M.', '<b>Esseldeurs, M.</b>' | replace: 'Esseldeurs', '<b>Esseldeurs</b>'}}</div>
 
 {% assign bibtest = false %}
 {% if entry.file %}
@@ -62,15 +62,9 @@ pre{
 <button class="btn btn-warning btm-sm display-only"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
 {% endif %}
 
-{% if entry.abstract %}
 <div id="a{{entry.key}}" style="display:none; background-color:white;border:thin solid;border-color: gray; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>{{ entry.bibtex | remove: "entry.abstract" }}</pre>
+<pre>{{ entry.bibtex}}</pre>
 </div>
-{% else %}
-<div id="a{{entry.key}}" style="display:none; background-color:white;border:thin solid;border-color: gray; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>{{ entry.bibtex }}</pre>
-</div>
-{% endif %}
 
 <div id="b{{entry.key}}" style="display:none; background-color:white;border:thin solid;border-color: gray; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>{{entry.abstract}}</pre>

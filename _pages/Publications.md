@@ -9,7 +9,7 @@ years: [2022]
 <div class="jumbotron">
 
 ### Publications in review
-{% bibliography -f inreview %}
+{% bibliography -f inreview -q @*[status!=selected]  %}
 
 ### Peer reviewed publications
 {% bibliography -f articles %}
