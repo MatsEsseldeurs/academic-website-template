@@ -126,7 +126,7 @@ permalink: /cv/
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12" style="margin-top:-5px">
 #### Selected Publication
-{% bibliography -f inreview -q @*[status=selected] %}
+{% bibliography -f articles -q @*[selected=True] %}
 </div></div>
 
 <div class="jumbotron">
