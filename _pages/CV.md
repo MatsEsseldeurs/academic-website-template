@@ -134,6 +134,7 @@ permalink: /cv/
 
 #### Teaching
 ###### Thesis Supervision
+* Thesis mentor of Owen Vermeulen (2023-2024; Master A&A)
 * Thesis mentor of Mike Feys (2022-2023; Master A&A)
 
 ###### Teaching Assistant
