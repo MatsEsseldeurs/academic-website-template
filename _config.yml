@@ -84,7 +84,7 @@ scholar:
   details_layout: bibtex.html
   details_link: Details
 
-  bibtex_skip_fields: [abstract, month_numeric, file, status, selected]
+  bibtex_skip_fields: [abstract, month_numeric, file, link, status, slides, poster, selected, addit]
 
   query: "@*"
 

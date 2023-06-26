@@ -8,7 +8,7 @@ permalink: /software/
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12" style="margin-top:-20px">
-<img src="{{site.url}}{{site.baseurl}}/images/Phantom.png" style="width:100px; min-width:10%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:15px;" align="right"/>
+<img src="{{site.url}}{{site.baseurl}}/images/Software/Phantom.png" style="width:100px; min-width:10%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:15px;" align="right"/>
 <h4>Ray-Tracing Implementation in Phantom
 <a href="https://github.com/danieljprice/phantom/blob/master/src/main/utils_raytracer.f90" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
 <a href="{{ site.url }}{{ site.baseurl }}/papers/3D_simulations_of_AGB_stellar_winds___II__Ray_tracer_implementation_and_impact_of_radiation_on_the_outflow_morphology.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> </h4>
@@ -30,7 +30,7 @@ In this code, to account for radiation transfer effects, a ray tracing algorithm
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12" style="margin-top:-20px">
-<img src="{{site.url}}{{site.baseurl}}/images/Magritte.png" style="width:200px; min-width:20%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:5px; margin-top:15px;" align="right"/>
+<img src="{{site.url}}{{site.baseurl}}/images/Software/Magritte.png" style="width:200px; min-width:20%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:5px; margin-top:15px;" align="right"/>
 <h4>Magritte
 <a href="https://github.com/Magritte-code/Magritte" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a></h4>
 
@@ -50,7 +50,7 @@ In this code, to account for radiation transfer effects, a ray tracing algorithm
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12" style="margin-top:-20px">
-<img src="{{site.url}}{{site.baseurl}}/images/plons_v2.png" style="width:100px; min-width:10%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:10px;" align="right"/>
+<img src="{{site.url}}{{site.baseurl}}/images/Software/plons_v2.png" style="width:100px; min-width:10%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:10px;" align="right"/>
 <h4>Plons
 <a href="https://github.com/Ensor-code/plons" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a></h4>
 
@@ -68,7 +68,7 @@ In this code, to account for radiation transfer effects, a ray tracing algorithm
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12" style="margin-top:-20px">
-<img src="{{site.url}}{{site.baseurl}}/images/SideKicks.png" style="width:140px; min-width:14%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:10px;" align="right"/>
+<img src="{{site.url}}{{site.baseurl}}/images/Software/SideKicks.png" style="width:140px; min-width:14%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:10px;" align="right"/>
 <h4>SideKicks.jl
 <a href="https://github.com/orlox/SideKicks.jl" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a></h4>
 

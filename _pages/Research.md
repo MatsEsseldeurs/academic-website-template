@@ -8,7 +8,7 @@ permalink: /research/
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12" style="text-align:justify">
 <h4>3D simulations of AGB stellar winds</h4>
-<img src="{{site.url}}{{site.baseurl}}/images/2Dplotrho_orbital2.png" style="width:400px; min-width:39%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:0px;" align="right"/>
+<img src="{{site.url}}{{site.baseurl}}/images/Research/2Dplotrho_orbital2.png" style="width:400px; min-width:39%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:0px;" align="right"/>
 
 In my research, I focus on understanding the behavior of stars during the Asymptotic Giant Branch (AGB) phase, which is a crucial stage in their evolution. During this phase, stars with an initial mass below approximately 8 solar masses develop a strong stellar wind due to radiation pressure on newly formed dust grains.
 
@@ -28,7 +28,7 @@ Overall, my research highlights the critical role of the radiation force in dust
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12" style="text-align:justify">
 <h4>Planetary systems around evolved stars</h4>
-<img src="{{site.url}}{{site.baseurl}}/images/Planet_v2.jpg" style="width:380px; min-width:34%; max-width:100%; margin-left:0px; margin-right:20px; margin-bottom:0px; margin-top:5px;" align="left"/>
+<img src="{{site.url}}{{site.baseurl}}/images/Research/Planet_v2.jpg" style="width:380px; min-width:34%; max-width:100%; margin-left:0px; margin-right:20px; margin-bottom:0px; margin-top:5px;" align="left"/>
 
 Studying the same AGB stars, I also investigate any planets or companions orbiting around them. Their significant mass-loss and changes in their physical characteristics can have a significant impact on any companions orbiting around them. To fully understand the evolution of planetary systems, we need to study the AGB phase and the role that companions play in this process.
 

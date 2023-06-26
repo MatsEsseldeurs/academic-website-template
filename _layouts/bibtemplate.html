@@ -42,6 +42,10 @@ pre{
 <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.slides }}" target="_blank"><button class="btn btn-success btm-sm display-only">Slides</button></a>
 {% endif %}
 
+{% if entry.poster %}
+<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.poster }}" target="_blank"><button class="btn btn-success btm-sm display-only">Poster</button></a>
+{% endif %}
+
 {% if entry.type == 'unpublished' and entry.eprint %}
 <a href="{{ entry.eprint | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-primary btm-sm display-only">ARXIV</button></a>
 {% endif %}
@@ -49,7 +53,7 @@ pre{
 <a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-primary btm-sm display-only">DOI</button></a>
 {% endif %}
 
-{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
+{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' or entry.type == 'conferencepres' or entry.type == 'upposter'%}
 <button class="btn btn-danger btm-sm display-only"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
 {% endif %}
 
@@ -59,6 +63,10 @@ pre{
 
 {% if entry.abstract %}
 <button class="btn btn-warning btm-sm display-only"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
+{% endif %}
+
+{% if entry.addit %}
+<a href="{{ site.url }}{{ site.baseurl }}{{ entry.addit }}"><button class="btn btn-info btm-sm display-only">Additional Information</button></a>
 {% endif %}
 
 <div id="a{{entry.key}}" style="display:none; background-color:white;border:thin solid;border-color: gray; border-radius:5px; padding:10px; margin-bottom:20px;">
