@@ -5,14 +5,14 @@ sitemap: false
 permalink: /talks/
 ---
 
-<div class="jumbotron">
+<!-- <div class="jumbotron">
 ### Upcoming Talks
 {% bibliography -f conferences --query @upposter %}
-</div>
+</div> -->
 
 
 <div class="jumbotron">
-### Conference Talks
+### Conference Talks & Posters
 {% bibliography -f conferences --query @conferencepres %}
 </div>
 
