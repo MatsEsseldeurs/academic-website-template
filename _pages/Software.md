@@ -40,7 +40,7 @@ In this code, to account for radiation transfer effects, a ray tracing algorithm
 <i>Esseldeurs, Mats; et al.</i>
 
 <div style="text-align:justify">
-<a href="https://magritte.readthedocs.io/en/stable/">Magritte</a> (<a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1812D/abstract">De Ceuster et al. 2020</a>) is an open-source software library for simulating radiation transport (written in C++). Magritte is currently mainly used for post-processing hydrodynamical simulations by creating synthetic observations, but the techniques could also be applied more general (e.g. <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230206221C/abstract">Coenegrachts et al. subm.</a>). Magritte uses a deterministic ray-tracer with a formal solver that currently focusses on line radiative transfer. The algorithms of Magritte form the basis of the ray-tracing implementation in Phantom (<a href="{{ site.url }}{{ site.baseurl }}/papers/3D_simulations_of_AGB_stellar_winds___II__Ray_tracer_implementation_and_impact_of_radiation_on_the_outflow_morphology.pdf">Esseldeurs et al. 2023.</a>).
+<a href="https://magritte.readthedocs.io/en/stable/">Magritte</a> (<a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1812D/abstract">De Ceuster et al. 2020</a>) is an open-source software library for simulating radiation transport (written in C++). Magritte is currently mainly used for post-processing hydrodynamical simulations by creating synthetic observations, but the techniques could also be applied more general (e.g. <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230206221C/abstract">Coenegrachts et al. 2023</a>). Magritte uses a deterministic ray-tracer with a formal solver that currently focusses on line radiative transfer. The algorithms of Magritte form the basis of the ray-tracing implementation in Phantom (<a href="{{ site.url }}{{ site.baseurl }}/papers/3D_simulations_of_AGB_stellar_winds___II__Ray_tracer_implementation_and_impact_of_radiation_on_the_outflow_morphology.pdf">Esseldeurs et al. 2023</a>).
 </div>
 </div>
 </div>
@@ -50,12 +50,12 @@ In this code, to account for radiation transfer effects, a ray tracing algorithm
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12" style="margin-top:-20px">
-<img src="{{site.url}}{{site.baseurl}}/images/Software/plons_v2.png" style="width:100px; min-width:10%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:10px;" align="right"/>
+<img src="{{site.url}}{{site.baseurl}}/images/Software/plons_long.png" style="width:200px; min-width:20%; max-width:100%; margin-left:20px; margin-right:0px; margin-bottom:0px; margin-top:10px;" align="right"/>
 <h4>Plons
 <a href="https://github.com/Ensor-code/plons" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a></h4>
 
 <b>Author:</b>
-<i>Malfait, Jolien; Esseldeurs, Mats; Maes, Silke; et al.</i>
+<i>Esseldeurs, Mats; Malfait, Jolien; Maes, Silke; et al.</i>
 
 <div style="text-align:justify">
 <a href="https://anaconda.org/Ensor/plons">Plons</a> (PLOtting tool for Nice Simulations) is a plotting tool designed for for plotting wind simulations in the SPH code Phantom. It is desinged to load phantom_dump files and phantom_ev files to analyse and visualise morphological structures in outflow simulations, as well as the time evolution of properties like the orbital parameters.
