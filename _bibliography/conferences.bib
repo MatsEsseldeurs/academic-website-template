@@ -1,3 +1,24 @@
+@conferencepres{Heidelberg_2024,
+  author = {Esseldeurs, Mats},
+  title = {Ray Tracing in Fluid Simulations: Enhancing AGB Outflow Simulations},
+  publisher = {RT24 workshop},
+  year = {2024},
+  slides = {2024_03_12-Ray_Tracing_in_Fluid_Simulations.pdf},
+  abstract = {In computational astrophysics, pursuing computational efficiency is a constant challenge. Ray tracing, renowned for its capacity to generate visually captivating astronomical representations, has experienced a continuous evolution in recent years. Simultaneously, Smoothed Particle Hydrodynamics (SPH), utilized in astrophysical fluid simulations, has established itself as a strong computational instrument for modeling intricate cosmic phenomena. 
+
+In the pursuit of performing coupled radiation-hydrodynamic calculations, this presentation introduces a recently developed ray-tracing algorithm that fuses the capabilities of ray tracing with the inherent strengths of SPH. This allows for efficient radiative transfer calculations in an on-the-fly manner while performing computationally demanding hydrodynamical calculations. }
+}
+
+@conferencepres{Phantom_2024,
+  author = {Esseldeurs, Mats},
+  title = {Enhancing AGB Outflow Simulations: Implementing a Ray-Tracing Algorithm in PHANTOM for Efficient Radiation Field Computation},
+  publisher = {5th Phantom and MCFOST Users Workshop 2024},
+  year = {2024},
+  link = {https://phantomsph.github.io/workshop2024/},
+  slides = {2024_02_14-Enhancing_AGB_outflow_simulations.pdf},
+  abstract = {Asymptotic Giant Branch (AGB) stars play a crucial role in our understanding of stellar evolution and galactic enrichment processes. The simulation of outflows from these stars, however, faces significant computational challenges, primarily due to the complex interplay of involved physical processes. We utilize the 3D Smoothed Particle Hydrodynamics code PHANTOM to simulate AGB outflows, incorporating a novel ray-tracing algorithm designed to create a more efficient and accurate proxy for the radiation field in these simulations. Our method addresses the computational intensity of traditional ray-tracing techniques by customizing the algorithm for SPH environments and exploiting symmetries in the physical setup. This strategic optimization notably reduces computational intensity while maintaining high accuracy. The algorithm rapidly computes the local radiative equilibrium temperature and radiation force on each particle, facilitating more realistic simulations of AGB outflows and providing deeper insights into their morphology and dynamics, previously limited by computational constraints. Continuing efforts are focused on enhancing cooling prescriptions within our physical model and merging these ray-tracing computations with existing dust formation modules in PHANTOM. The ultimate goal is to synchronize our PHANTOM simulations with high-resolution observations. We aim to post-process our hydrodynamic models using the radiative transfer code MAGRITTE to produce synthetic observations that mirror actual ALMA data. This approach aims to shed light on the complex wind structures of evolved stars and provides essential data for determining fundamental stellar and wind parameters. These parameters are key in forecasting the future evolution of these stars, offering a renewed understanding in the study of AGB outflows.}
+}
+
 @conferencepres{Namur_2023,
   author = {Esseldeurs, Mats},
   title = {Towards a complete picture of the evolution of planetary systems around evolved stars},
