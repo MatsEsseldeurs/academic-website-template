@@ -20,7 +20,7 @@ I have compared the effects of four different descriptions of radiative transfer
 
 Overall, my research highlights the critical role of the radiation force in dust-driven AGB winds, impacting the velocity profile and morphological structures. These findings provide important insights into the behavior of stars during the AGB phase and contribute to our understanding of the evolution of stars.
 
-{% bibliography -f articles -q @*[selected=True]  %}
+{% bibliography -f articles -q @*[winds=True]  %}
 </div>
 </div>
 
@@ -37,5 +37,7 @@ Most AGB stars have at least one companion, and the sudden changes in the star's
 Previous research has only addressed these processes by using simple models that are now considered outdated. Our research focuses on improving this treatment by studying the dynamical tide, which can exceed the dissipation of the equilibrium tide by three orders of magnitude, and by using complex 3D hydrodynamic simulations that account for all components of the wind launching mechanism and the gravitational perturbation of the companion. This enables us to accurately model the mass-loss rates, mass accretion efficiency, and morphological structure of the AGB surroundings created by the companion.
 
 Our research will help build coherent models of planetary systems orbiting evolved AGB stars, shedding light on the fate of planetary systems and their companions as stars evolve.
+
+{% bibliography -f articles -q @*[tides=True]  %}
 </div>
 </div>

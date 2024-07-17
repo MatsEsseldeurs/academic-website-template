@@ -69,6 +69,10 @@ pre{
 <a href="{{ site.url }}{{ site.baseurl }}{{ entry.addit }}"><button class="btn btn-info btm-sm display-only">Additional Information</button></a>
 {% endif %}
 
+{% if entry.recording %}
+<a href="{{ entry.recording }}" target="_blank"><button class="btn btn-info btm-sm display-only">Recording</button></a>
+{% endif %}
+
 {% if entry.proceedings %}
 <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.proceedings }}" target="_blank"><button class="btn btn-success btm-sm display-only">Proceedings</button></a>
 {% endif %}

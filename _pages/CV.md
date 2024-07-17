@@ -134,11 +134,11 @@ permalink: /cv/
 
 #### Teaching
 ###### Thesis Supervision
-* Thesis mentor of Owen Vermeulen (2023-2024; Master A&A)
+* Thesis mentor of Owen Vermeulen (2023-2024; Master A&A; Paul Smeyers price winning thesis)
 * Thesis mentor of Mike Feys (2022-2023; Master A&A)
 
 ###### Teaching Assistant
-* Biophysics (fall, 2022)
+* Biophysics (fall, 2022, 2023)
 * General Physics I (fall, 2021)
 * General Physics with Elements of Mathematics I (fall, 2020)
 
